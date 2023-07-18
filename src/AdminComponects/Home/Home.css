@@ -1,0 +1,10 @@
+.HomeParent{
+    width: 80%;
+    height: 100vh;
+    background: #262835;
+    overflow-y: scroll;
+}
+
+.HomeParent::-webkit-scrollbar {
+  width: 0;
+  }

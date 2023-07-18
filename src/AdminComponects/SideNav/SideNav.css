@@ -1,0 +1,40 @@
+.SideNavParent{
+    width: 20%;
+    height: 100vh;
+    background: #12101F;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 50px;
+gap: 20px;
+}
+
+.SideNavParent .logo{
+    width: 140px;
+    height: 140px;
+    background: #12101F;
+    border-radius: 50%;
+    box-shadow: 2px 3px 33px 7px rgba(73,222,232,0.75);
+-webkit-box-shadow: 2px 3px 33px 7px rgba(73,222,232,0.75);
+-moz-box-shadow: 2px 3px 33px 7px rgba(73,222,232,0.75);
+
+}
+
+
+.SideNavParent .links{
+    color: #ffff;
+}
+
+.links ul{
+    list-style: none;
+
+}
+
+.links ul li{
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+
+}
