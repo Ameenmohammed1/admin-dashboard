@@ -8,7 +8,7 @@ function SideNav() {
         <ul>
             <li>Dashboard</li>
             <li>Orders</li>
-            <li>Profile</li>
+            <li>Profile ope the door</li>
             <li>Products</li>
             <li>OTP Vefiy</li>
             <li>Payments</li>
