@@ -1,0 +1,42 @@
+.CRUDbutton{
+    display: flex;
+    gap: 10px;
+}
+
+.CRUDbutton button{
+    padding: 6px 10px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.CRUDbutton button:nth-child(1){
+    background: transparent;
+}
+.CRUDbutton button:nth-child(1):hover{
+    transition: 0.5s ease;
+    background: #2c2982;
+}
+.CRUDbutton button:nth-child(2){
+    background: transparent;
+}
+.CRUDbutton button:nth-child(2):hover{
+    transition: 0.5s ease;
+    background: #2c2982;
+}
+.CRUDbutton button:nth-child(3){
+    background: #ff4040;
+}
+.filterDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+.searchFilter{
+    width: 250px;
+    height: 30px;
+    margin-right: 20px;
+    padding-left: 15px;
+    font-size: 15px;
+    outline: none;
+}
+
