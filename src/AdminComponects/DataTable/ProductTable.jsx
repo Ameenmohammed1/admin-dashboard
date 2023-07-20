@@ -4,7 +4,6 @@ import DataTable, { createTheme } from "react-data-table-component";
 import {useNavigate}  from 'react-router-dom'
 import deleteImg from '..//../icons/delete.png'
 import editImage from '../../icons/editing.png'
-import data from '../data.json'
 // import { ToastContainer, toast } from 'react-toastify';
 
 // import 'react-toastify/dist/ReactToastify.css';
@@ -17,8 +16,8 @@ function TopProducts(prop) {
    function getData(){
     
     return new Promise((resolve,reject)=>{
-        setProducts(data)
-          setFilterData(data)
+        setProducts(prop.data)
+          setFilterData(prop.data)
           resolve(true)
     })
    }

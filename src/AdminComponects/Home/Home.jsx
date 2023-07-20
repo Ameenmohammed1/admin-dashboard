@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
-import UserTable from '../DataTable/User'
+import UserTable from '../DataTable/UserTable'
+import data from '../data.json'
+
 function Home() {
   return (
     <div className='HomeParent'>
@@ -9,7 +11,7 @@ function Home() {
             <button>Creat</button>
             </div>
             <div className="dataTabelParent">
-            <UserTable/>
+            <UserTable data={data}/>
             </div>
             
        

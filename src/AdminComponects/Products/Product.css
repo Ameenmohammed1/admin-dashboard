@@ -1,0 +1,42 @@
+.ProductParent{
+    width: 80%;
+    height: 100vh;
+    overflow-y: scroll;
+    background: #262835;
+}
+
+.ProductParent::-webkit-scrollbar {
+    width: 0;
+    }
+
+    .head{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        padding-left:30px ;
+        padding-right:30px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      .head p{
+        font-size: 25px;
+        color: #fff;
+        font-weight: 600;
+      }
+    
+      .head button{
+        padding: 9px 35px;
+        background: #00D0FF;
+        color: #000000;
+        border-radius: 50px;
+        border: none;
+    cursor: pointer;
+      }
+      .head button:hover{
+       transition: 0.5s;
+        background: #05c2ec;
+        color: #fff;
+      }

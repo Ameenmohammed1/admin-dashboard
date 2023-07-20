@@ -1,3 +1,9 @@
 .HomePage{
     display: flex;
 }
+.ProductPageParent{
+    display: flex;
+}
+.OrderPageParant{
+    display: flex;
+}
